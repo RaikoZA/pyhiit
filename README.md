@@ -11,6 +11,10 @@ Cooldown (The amount of time needed/wanted for cooling off)<br />
 Exercises (The amount of exercises part of your HIIT workout)<br />
 Set (The amount of sets you would like to run your exercises)<br />
 
+All input is in seconds and not minutes eg:
+
+Warmup: 300 (5 minutes)
+
 Requirements:
 -------------------
 
