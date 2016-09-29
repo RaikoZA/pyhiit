@@ -38,30 +38,6 @@ class ActivePhase:
                 #Start.countdown()
                 
 
-class ActivePhase2:
-
-	@staticmethod
-	def start():
-		starting_in = './sounds/active_phase_starting_in.wav'
-		playsound(starting_in)
-
-	@staticmethod
-	def end():
-                ending_in = './sounds/active_phase_ending_in.wav'
-                playsound(ending_in)
-
-	@staticmethod
-	def active(x):
-                pre_active = 5
-                active_ready = x - pre_active
-                ActivePhase.start()
-                time.sleep(2)
-                Start.countdown()
-                time.sleep(active_ready)
-                #ActivePhase.end()
-                #time.sleep(2)
-                #Start.countdown()
-
 class RestPhase:
 
 	@staticmethod
