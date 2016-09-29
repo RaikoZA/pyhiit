@@ -9,7 +9,6 @@ SETS = int(input('Sets: '))
 
 clear()
 
-
 WarmupPhase.warmup(WARMUP)
 Start.exercises(SETS, EXERCISES, ACTIVE_TIME, REST_TIME)
 CooldownPhase.cooldown(COOLDOWN)
