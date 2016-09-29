@@ -5,8 +5,10 @@ import winsound
 
 def clear():
 
-	os.system('cls')
-
+	try:
+		os.system('cls')
+	except:
+		os.system('clear')
 
 def playsound(sound):
 
