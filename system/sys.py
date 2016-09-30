@@ -33,11 +33,7 @@ class ActivePhase:
                 active_ready = x - pre_active
                 ActivePhase.start()
                 time.sleep(2)
-                #Start.countdown()
                 time.sleep(active_ready)
-                #ActivePhase.end()
-                #time.sleep(2)
-                #Start.countdown()
                 
 
 class RestPhase:
@@ -57,8 +53,6 @@ class RestPhase:
 		pre_rest = 5
 		rest_ready = x - pre_rest
 		RestPhase.start()
-		#time.sleep(2)
-		#Start.countdown()
 		time.sleep(rest_ready)
 		RestPhase.end()
 		time.sleep(2)
