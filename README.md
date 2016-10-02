@@ -1,4 +1,4 @@
-# pyhiit
+# PyHIIT
 -------------------
 PyHIIT is a High-intensity interval training application there to assist users with their workout by letting the user know when their 'Active' and 'Rest' periods are by voice.<br /><br />
 
