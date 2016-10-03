@@ -1,0 +1,6 @@
+{
+  "name": "Pyhiit",
+  "tagline": "PyHIIT is an High-intensity interval training application.",
+  "body": "### PyHIIT\r\nThis program was originally created for my fiance to use at home to assist in HIIT training.\r\nWe thought it would be a good idea to add it to Github to share it with anyone else wanting a similar\r\nexperience. \r\n\r\n### About PyHIIT\r\nPyHIIT is a High-intensity interval training application there to assist users with their workout by letting the user know when their 'Active' and 'Rest' periods are by voice.\r\n\r\n\r\nWhen running application you will be asked the following:\r\n\r\nWarmup (This is your warmup time you would like to have before starting your exercises)\r\nActive (This is your active time during your HIIT training)\r\nRest (This is your resting time during your HIIT training)\r\nCooldown (The amount of time needed/wanted for cooling off)\r\nExercises (The amount of exercises part of your HIIT workout)\r\nSet (The amount of sets you would like to run your exercises)\r\n\r\nAll input is in seconds and not minutes eg:\r\n\r\nWarmup: 300 (5 minutes)\r\n\r\nRequirements:\r\n\r\nPython 3\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
