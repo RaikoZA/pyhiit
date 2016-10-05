@@ -3,14 +3,14 @@ import time
 import winsound
 
 
-def clear():
+def clear(): # Clears screen contents 
 
 	try:
 		os.system('cls')
 	except:
 		os.system('clear')
 
-def playsound(sound):
+def playsound(sound): # Plays sound files with module Winsound
 
 	winsound.PlaySound(sound, winsound.SND_ASYNC)
 
@@ -152,13 +152,18 @@ class CooldownPhase:
 		time.sleep(2)
 		Start.countdown()
 
-
+'''
+Class Success not currently in use, might take it out if no use found
+'''
 class Success:
 
         @staticmethod
         def goodjob():
                 job_complete = ''
 
+'''
+Class Beep not currently in use, might take it out if no use found
+'''
 class Beep:
 
 	@staticmethod
